@@ -16,16 +16,17 @@
 ## [3. Instalación de JDK en Ubuntu](#id4)
 ## [4. ¿Cómo instalar una versión específica de Java?](#id5)
 ## [5. Configuración de las variables de entorno](#id6)
+## [6. Trabajando con Git](#id7)
 
 
-## Introducción
+## Introducción <a name="id0"></a>
 
 Java sin dudas es un lenguaje de programación que es utilizado para diversos propósitos y es un complemento casi esencial para la ejecución y funcionamiento de diversas herramientas, la instalación de java es prácticamente una tarea esencial después de haber realizado la instalación de este.
 
 Es por ello que en esta ocasión compartiré con ustedes un sencillo tutorial de como instalar Java en nuestro sistema con el JDK el cual es un entorno de desarrollo y el entorno de ejecución JRE.
 
 
-## Creamos el repositorio "howinstallJava"
+## Creamos el repositorio "howinstallJava" <a name="id1"></a>
 
 <img src=".files/00.png">
 <img src=".files/000.png">
@@ -35,7 +36,7 @@ Es por ello que en esta ocasión compartiré con ustedes un sencillo tutorial de
 <img src=".files/03.png">
 
 
-## ¿Cómo instalar Java en Ubuntu desde repositorios?
+## ¿Cómo instalar Java en Ubuntu desde repositorios? <a name="id2"></a>
 
 Lo primero debemos de actualizar el sistema con:
 
@@ -60,7 +61,7 @@ comprobamos que tenemos instalado Java en nuestro sistema solo debemos de ejecut
 
 <img src=".files/06.png">
 
-## ¿Cómo instalar una versión específica de Java?
+## ¿Cómo instalar una versión específica de Java? <a name="id3"></a>
 
 Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
  - OpenJDK:
@@ -91,11 +92,11 @@ La versión que se debe de trabajar es la versión 8. Para ello verificaremos la
 
 En caso que no se ejecuta la versión 8 se debe configurar las variables de entorno.
 
-## Configuración de las variables de entorno
+## Configuración de las variables de entorno <a name="id4"></a>
 
  El siguiente paso consiste en establecer  las variables de entorno. Es necesario porque cuando se usa Java, Linux necesita saber dónde está ubicado el programa para ejecutarlo y qué versión de Java usar de forma predeterminada. Para modificar esto, usaremos el editor de texto nano. Primero, abra el archivo en Nano.
 
-### Listar la versiones de OpenJDK instaladas
+### Listar la versiones de OpenJDK instaladas <a name="id5"></a>
 
  Ejecuta el siguiente comando para verificar que se han descargado las diferentes versiones de OpenJDK.
 
@@ -105,7 +106,7 @@ En caso que no se ejecuta la versión 8 se debe configurar las variables de ento
 
 <img src=".files/11.png">
 
-### Actualización de las variables de entorno
+### Actualización de las variables de entorno <a name="id6"></a>
 
  Edita y modifica el fichero profile, con los comandos:
 
@@ -149,7 +150,7 @@ Finalmente, cargue las variables de entorno usando el comando de source
 source /etc/profile.d/java.sh
 ```
 
-## Trabajando con git
+## Trabajando con git <a name="id7"></a>
 
 <img src=".files/16.png">
 <img src=".files/17.png">
