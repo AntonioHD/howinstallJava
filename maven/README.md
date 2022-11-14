@@ -24,9 +24,9 @@
 
  Apache Maven es una herramienta de gestión y comprensión de proyectos de código abierto que se utiliza principalmente para proyectos Java. Maven usa un modelo de objetos de proyecto (POM), que es esencialmente un archivo XML que contiene información del proyecto, detalles de configuración, dependencias del proyecto y más.
 
-## Instalar Apache Maven <a name="id0"></a>
+## Instalar Apache Maven <a name="id1"></a>
 
-### Instalar Apache Maven con apt <a name="id1"></a>
+### Instalar Apache Maven con apt <a name="id2"></a>
 
  Instalar Maven en Ubuntu usando apt es un proceso simple y directo.
 
@@ -65,7 +65,7 @@ Apache Maven 3.6.3
  Eso es todo. Maven ahora está instalado en su sistema y puede comenzar a usarlo.
 
 
-### Instalar una versión concreta de Apache Maven <a name="id2"></a>
+### Instalar una versión concreta de Apache Maven <a name="id3"></a>
 
  En el momento de escribir este artículo, es la última versión de Apache Maven 3.8.6. Antes de continuar con el siguiente paso, visite la página de descarga de Maven para ver si hay una versión más nueva disponible.
 
@@ -98,7 +98,7 @@ sudo ln -s /opt/apache-maven-3.8.6 /opt/maven
  Cuando se lanza una nueva versión, puede actualizar su instalación de Maven desempaquetando la última versión y cambiando el enlace simbólico para señalarla.
 
 
-## Establecer variables de entorno <a name="id3"></a>
+## Establecer variables de entorno <a name="id4"></a>
 
  A continuación, necesitaremos establecer las variables de entorno. Para hacer esto, abra su editor de texto y cree un nuevo archivo llamado mavenenv.sh en el directorio /etc/profile.d/
 
@@ -130,7 +130,7 @@ Pega el siguiente código:
 
 <img src=".files/09.png">
 
-## Verificar la instalación <a name="id4"></a>
+## Verificar la instalación <a name="id5"></a>
 
 Para verificar que Maven está instalado, use el mvn -version que imprimirá la versión de Maven:
 
