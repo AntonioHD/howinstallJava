@@ -1,7 +1,4 @@
-
-# Instalación de Netbeans en el SO
-
-# Tarea 8.- instalación de Maven en Ubuntu
+# Tarea 9.- instalación de Netbeans en el SO
 
 * Autor: Antonio Hernández Domínguez
 * Curso: 1º DAW 2022/2023
@@ -16,12 +13,13 @@
 
 ## [1. Introducción](#id0)
 ## [2. Prerrequisitos](#id1)
-### [2.1 Instalación de Netbeans](#id2)
-### [2.2 Instalar una versión concreta de Apache Maven](#id3)
-## [3. Establecer variables de entorno](#id4)
-## [4. Verificar la instalación](#id5)
+## [3. Instalación de Netbeans](#id2)
+## [4. Instalación a través de WGET](#id3)
+## [5. Ejecutar Netbeans](#id3)
+## [6. Establecer variables de entorno](#id4)
+## [7. Verificar la instalación](#id5)
 
-# Instalación del IDE Netbeans 12
+# Instalación del IDE Netbeans 12<a name="id0"></a>
 
   NetBeans es un IDE popular para desarrollar aplicaciones Java. Esto permite desarrollar aplicaciones a partir de un conjunto de componentes de software modulares llamados módulos. NetBeans está disponible para ejecutarse en sistemas operativos populares como Windows, macOS, Linux.
 
@@ -30,7 +28,7 @@
 </div>
 
 
-## Prerrequisitos
+## Prerrequisitos<a name="id1"></a>
 
   Recuerda que para la instalación de __Netbeans__ debes de tener instalado __Java__. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](tarea-jdk.md).
 
@@ -40,7 +38,7 @@
   java -version
   ```
 
-## Instalación
+## Instalación<a name="id2"></a>
 
   Los paquetes Snap son paquetes de software universales prediseñados que se envían con las bibliotecas y dependencias requeridas por el paquete de software. Son independientes de la distribución y se pueden instalar en cualquier distribución principal de Linux. Los snaps son populares ya que no requieren ninguna dependencia durante la instalación, lo que hace que el proceso de instalación sea fluido y sin errores.
 
@@ -66,17 +64,7 @@ sudo snap install netbeans --classic
 
   Una vez que se cargue el IDE de Netbeans, se le presentará la página de inicio.
 
-# Eliminar Netbeans
-
-__No realices este paso, es para que conozcas como se elimina__.
-
- Una vez que no necesite Netbeans en su sistema. Use el siguiente comando para eliminar netbeans del sistema Ubuntu usando el comando snap.
-
-```console
-sudo snap remove netbeans
-```
-
-## Instalación a través wget (Cualquier distribución Linux)
+## Instalación a través wget (Cualquier distribución Linux)<a name="id3"></a>
 
 Teniendo en cuenta que has completado la instalación de __java__ en la tarea anterior, puedes realizar la instalación de Netbeans 12.5 a través de __wget__. De esta forma se puede realizar la instalación en ___cualquier distribución de linux___.
 
@@ -97,15 +85,5 @@ Los pasos son los siguientes:
   ./Apache-NetBeans-12.5-bin-linux-x64.sh
   ```
 - Después de ejecutar el script de instalación anterior, la “ Página de bienvenida ” del instalador se deben de seguir los pasos para personalizar la instalación (lenguajes soportados, etc).
-# Realización del informe
-
- Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido.
-Además el informe debe de contener:
- - Indice
- - Pasos descritos.
- - Problemas encontrados.
- - Capturas de pantalla con los resultados obtenidos.
-
-
 
 </div>
