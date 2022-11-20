@@ -8,6 +8,7 @@
 ***
 
 <div align="justify">
+  
 # Instalación del IDE IntelliJ IDEA
 
 <div align="center">
